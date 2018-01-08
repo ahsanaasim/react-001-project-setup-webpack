@@ -18,3 +18,12 @@
 3. npm install babel-preset-es2015 --save-dev
 4. npm install babel-preset-react --save-dev
 
+#### Create the required Files
+1. Create index.html, App.jsx, main.js, webpack.config.js
+
+#### Set Compiler, Server and Loaders
+1. Configure webpack.config.js
+2. in package.json edit scripts property to
+    "start": "webpack-dev-server --hot"
+3. edit index.html, App.jsx and main.js*
+4. npm start to start the App
